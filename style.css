@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+label.label1{
+    font-size: 25px;
+    line-height: 80px;
+    padding-left: 20px;
+    color: white;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0% 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+#grid1{
+    background-color: white;
+    width: 19%;
+    float: left;
+    padding: 5px;
+    height: 570px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+}
+
+.ul1{
+    line-height: 60px;
+    padding-bottom: 120px;
+    padding-top: 30px;
+    font-family: monserrat;
+    font-size: 20px;
+    color: black;
+}
+
+.ul2{
+    padding-top: 50px;
+    line-height: 60px;
+    font-size: 20px;
+    color: black;
+}
+
+#label2{
+    padding-top: 60px;
+    color: black;
+}
+
+#label2 a{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    color: black;
+}
+
+.ul1 a{
+    color: black;
+}
+
+.ul2 a{
+    color: black;
+}
+
+#grid2{
+    background-color: white;
+    width: 80%;
+    float: right;
+    padding: 5px;
+    height: 570px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+
+}
+
+.p1{
+    font-size: 30px;
+    padding-top: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p2{
+    font-size: 30px;
+    padding-top: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#img1{
+    float: left;
+    width: 25%;
+    position: relative;
+    bottom: 56%;
+
+}
+
+#img2{
+    float: right;
+    width: 30%;
+    height: 240px;
+    clip-path: circle();
+}
+
+hr{
+    height: 5px;
+    background-color: lightgrey;
+}
